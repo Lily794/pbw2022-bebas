@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Inline CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      header {
+        background-color: #11aeef;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav {
+        margin-top: 20px;
+        margin-right: 97px;
+      }
+      section {
+        padding: 40px;
+        padding-left: 150px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+      }
+      h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      input[type="text"] {
+        background: none;
+        color: black;
+        padding: 15px;
+        width: 50%;
+        border: 3px solid #11aeef;
+        font-size: 15px;
+        margin-top: 20px;
+      }
+      input[type="number"] {
+        background: none;
+        color: black;
+        padding: 15px;
+        width: 50%;
+        border: 3px solid #11aeef;
+        margin-top: 20px;
+        font-size: 15px;
+      }
+      button {
+        background-color: #11aeef;
+        color: white;
+        padding: 15px;
+        width: 15%;
+        border: 3px solid #11aeef;
+        margin-top: 20px;
+        margin-left: auto;
+        display: block;
+        font-weight: 700;
+        font-size: 13px;
+      }
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <img
+        class="iconnavbardua"
+        src="image/logo udinus.png"
+        height="70px"
+        width="70px"
+        style="margin-left: 100px"
+      />
+      <nav>
+        <a href="css1.html"
+          >Css1</a
+        >
+        <a href="css2.html"
+          >Css2</a
+        >
+        <a href="css3.html"
+          >Css3</a
+        >
+        <a href="css4.html"
+          >Css4</a
+        >
+        <a href="css5.html"
+          >Css5</a
+        >
+        <a href="css6.html"
+          >Css6</a
+        >
+        <a href="css7.html"
+          >Css7</a
+        >
+        <a href="css8.html"
+          >Css8</a
+        >
+      </nav>
+    </header>
+    <section>
+      <h1>Input</h1>
+      <input type="text" placeholder="Nama" />
+      <br />
+      <input type="number" placeholder="NIM" />
+      <br />
+      <input type="text" placeholder="Jurusan" />
+      <br />
+      <input type="number" placeholder="Email" />
+      <br />
+      <input type="number" placeholder="Nomer HP" />
+      <br />
+      <input type="number" placeholder="Dosen Wali" />
+      <br />
+      <button type="button" onclick="alert('Berhasil')">Kirim</button>
+    </section>
+    <footer
+      style="
+        background-color: #11aeef;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        margin-bottom: 0;
+      "
+    >
+      <p>A11.2022.14099</p>
+    </footer>
+  </body>
+</html>
