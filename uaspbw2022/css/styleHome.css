@@ -1,0 +1,84 @@
+.navbg {
+    background-color: #DCD5C9;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, .5)
+}
+
+.card {
+    background-color: #DCD5C9;
+    border: 2px solid #8A624A;
+}
+
+.card:hover {
+    transition: .3s;
+    background-color: rgba(220, 213, 201, .7);
+    cursor: pointer;
+}
+
+
+.cart {
+    background-color: #8A624A;
+}
+
+.buttonCard {
+    padding: 5px 40px 5px 40px;
+}
+
+.about {
+    height: 100vh;
+}
+
+.gambar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+p,
+h4 {
+    text-align: left;
+}
+
+.description img {
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid #8A624A;
+    overflow: hidden;
+
+}
+
+.content img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in a:hover {
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+.footer p {
+    text-align: center;
+}

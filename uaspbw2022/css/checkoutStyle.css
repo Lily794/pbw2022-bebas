@@ -1,0 +1,67 @@
+.navbg {
+    background-color: #DCD5C9;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, .5)
+}
+
+.card {
+    background-color: #DCD5C9
+}
+
+.card:hover {
+    transition: .3s;
+    background-color: rgba(220, 213, 201, .7);
+    cursor: pointer;
+
+}
+
+.detail {
+    text-align: right;
+}
+
+.cart {
+    background-color: #8A624A;
+}
+
+.buttonCard {
+    padding: 5px 40px 5px 40px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.about {
+    height: 100vh;
+}
+
+.checkout .card {
+    background-color: white;
+}
+
+.checkout-btn .selesai {
+    background-color: #DCD5C9;
+    color: black;
+}
+
+.checkout-btn .selesai:hover {
+    transition: .3s;
+    background-color: #8A624A;
+    color: black;
+}
+
+.nomor-pesan p {
+    text-align: right;
+}
+
+.beli-lagi {
+    background-color: #DCD5C9;
+    color: black;
+    width: 450px;
+    text-align: center;
+}
+
+.beli-lagi:hover {
+    transition: .3s;
+    background-color: #8A624A;
+    color: black;
+}
